@@ -18,6 +18,10 @@ endif
 autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
   \| PlugInstall --sync | source $MYVIMRC
 \| endif
+<<<<<<< HEAD
+=======
+
+>>>>>>> 79b4b732607fe37c0a42b38d19da9f0db87ce2cd
 
 call plug#begin() 
 
